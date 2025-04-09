@@ -1,3 +1,12 @@
+# Environment variables
+.env
+
+# Configuration files
+config.json
+
+# Node modules
+node_modules/
+
 # Logs
 logs
 *.log
@@ -7,12 +16,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for uploaded files
+uploads/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 dist
 dist-ssr
 *.env
-config.json
-
 
 # Editor directories and files
 .vscode/*
